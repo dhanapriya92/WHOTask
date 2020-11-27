@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Covid Report</string>
+    <string name="swipe">Swipe right to continue</string>
+    <string name="latest">Latest Situation Reports</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/card_2"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/arrow"
+        android:id="@+id/title"
+        android:text="IN's situation in Numbers"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/title"
+        android:text="3,12,534"
+        android:id="@+id/total_count"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/total_count"
+
+        android:text="Confirmed Cases"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="29,100 Total deaths"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"></TextView>
+
+</RelativeLayout>
